@@ -1,0 +1,47 @@
+/*Блок обовязкових кольорів сайта*/
+@href_c:#000;/*колір гіперпосилань*/
+@text_c:#000;/*колір текста*/
+@err_c:#000;/*колір помилкових полів */
+@notify_c:#000;/*повідомлення*/
+@plch_c:#000;/*плейсхолдери*/
+
+/*Global vars*/
+@white:#fff;
+@black:#111111;
+@texts:#a6a6a6;
+@links:#47c5ff;
+@links_hover:#47c5ff;
+
+
+/*columns*/
+@column_spacer:0 15px;
+@column_counter:12;
+@cont_width:95%;
+@max_cont_width:1170px;
+
+
+
+/*Тінь блока*/
+/*@shadow: 0.5px 0.866px 21px 0px rgba(0, 0, 0, 0.14);*/
+/*@txt_shadow:1px 1px 1px rgba(255, 255, 255, 1);*/
+
+
+/*Мусові кольори для плейсхолдерів і невірно заповнених полів форм*/
+@placeholder-color:@plch_c;
+@required-color:@notify_c;
+@error_formfield-color:@err_c;
+@error_message_block_bck:@err_c;
+@error_message_block_color:@err_c;
+/* стилі плейсхолдерів до купки не клеїти! */
+::-webkit-input-placeholder { 
+    color: @placeholder-color !important;
+}
+:-moz-placeholder {  
+    color: @placeholder-color !important;
+}
+::-moz-placeholder { 
+    color: @placeholder-color !important;
+}
+:-ms-input-placeholder {  
+    color: @placeholder-color !important;
+}
