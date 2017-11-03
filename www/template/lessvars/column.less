@@ -31,7 +31,7 @@
     .col-@{i}.offset, .col-l-@{i}.offset, .col-m-@{i}.offset, .col-s-@{i}.offset, .col-xs-@{i}.offset{
 
     }
-    .col-@{i}.hide, .col-l-@{i}.hide, .col-m-@{i}.hide, .col-s-@{i}.hide, .col-xs-@{i}.hide{
+    .col-hide, .col-l-hide, .col-m-hide, .col-s-hide, .col-xs-hide{
         display: none;
     }
     .col-@{i}.offset.hide, .col-l-@{i}.offset.hide, .col-m-@{i}.offset.hide, .col-s-@{i}.offset.hide, .col-xs-@{i}.offset.hide{
@@ -60,19 +60,6 @@
 }
 .rows (1);
 
-
-//padding-cleaner
-.padding{
-    &-left{
-        padding-left: 0;
-    }
-    &-right{
-        padding-right: 0;
-    }
-    &-both{
-        padding: 0;
-    }
-}
 /*medium - "l" */
 @media screen and (max-width: 1366px) {
     .rows (@index) when (@index <= @column_counter) {
