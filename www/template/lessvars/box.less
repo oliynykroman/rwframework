@@ -1,7 +1,7 @@
-.boxsizing{
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+.boxsizing(@box_prop: border-box){
+    -moz-box-sizing: @box_prop;
+    -webkit-box-sizing: @box_prop;
+    box-sizing: @box_prop;
 }
 .flex_display{
     -ms-box-orient: horizontal;
