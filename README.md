@@ -1,2 +1,2 @@
 # rwframework
-less framework + wendir prefix in mixins
+less framework + wendor prefix in mixins
