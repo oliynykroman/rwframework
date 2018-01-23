@@ -45,6 +45,11 @@
     max-width:@max_cont_width;
     margin:0 auto;
     padding:0;
+	    &:after {
+        clear: both;
+        display: table;
+        content: '';
+    }
 }
 .rows (@index) when (@index <= @column_counter) {
     @padding:@column_spacer;
